@@ -7,7 +7,7 @@ salirBtn.addEventListener('click', cerrarPantallaCompleta);
 function pantallaCompleta() {
     document.documentElement.requestFullscreen();
     
-}
+} 
 function cerrarPantallaCompleta() {
     document.exitFullscreen();
 }
